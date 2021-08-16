@@ -1,0 +1,31 @@
+@font-face {
+    font-family: 'Material Icons';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Material Icons'),
+      local('MaterialIcons-Regular'),
+      url(./static/fonts/MaterialIcons-Regular.ttf) format('truetype'),
+      url(./static/fonts/MaterialIcons-Regular.woff) format('woff'),
+      url(./static/fonts/MaterialIcons-Regular.woff2) format('woff2');
+
+
+  }
+  
+.material-Icon {
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  display: inline-block;
+  font-family: 'Material Icons';
+  font-style: normal;
+  font-weight: normal;
+  speak: none;
+}
+
+.material-Icon--Switch:before { content: "\f1d1"; }
+.material-Icon--Message:before { content: "\e0ca"; }
+.material-Icon--ChromeMinimize:before { content: "\e931"; }
+.material-Icon--Loading:before { content: "\ea1d"; }
+.material-Icon--MessageFill:before { content: "\e0cb"; }
+.material-Icon--Feedback:before { content: "\e87f"; }
+.material-Icon--FilledCircle:before { content: "\ef4a"; }
+  

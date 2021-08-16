@@ -4,8 +4,9 @@ import { createStore, createStyleSet } from 'botframework-webchat';
 
 import WebChat from './WebChat';
 
-import './fabric-icons-inline.css';
+import './material-icons-inline.css';
 import './MinimizableWebChat.css';
+
 
 const MinimizableWebChat = () => {
   const store = useMemo(
@@ -82,8 +83,8 @@ const MinimizableWebChat = () => {
     <div className="minimizable-web-chat">
       {minimized && (
         <button className="maximize" onClick={handleMaximizeButtonClick}>
-          <span className={token ? 'ms-Icon ms-Icon--MessageFill' : 'ms-Icon ms-Icon--Message'} />
-          {newMessage && <span className="ms-Icon ms-Icon--CircleShapeSolid red-dot" />}
+          <span className={token ? 'material-Icon material-Icon--MessageFill' : 'material-Icon material-Icon--Message'} />
+          {newMessage && <span className="material-Icon material-Icon--FilledCircle red-dot" />}
         </button>
       )}
       {loaded && (
@@ -91,10 +92,10 @@ const MinimizableWebChat = () => {
           <header>
             <div className="filler" />
             <button className="switch" onClick={handleSwitchButtonClick}>
-              <span className="ms-Icon ms-Icon--Switch" />
+              <span className="material-Icon material-Icon--Switch" />
             </button>
             <button className="minimize" onClick={handleMinimizeButtonClick}>
-              <span className="ms-Icon ms-Icon--ChromeMinimize" />
+              <span className="material-Icon material-Icon--ChromeMinimize" />
             </button>
           </header>
           <WebChat

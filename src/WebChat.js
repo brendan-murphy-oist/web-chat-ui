@@ -24,9 +24,9 @@ const WebChat = ({ className, onFetchToken, store, token }) => {
     <div className={`${className || ''} connect-spinner`}>
       <div className="content">
         <div className="icon">
-          <span className="ms-Icon ms-Icon--Robot" />
+          <span className="material-Icon material-Icon--Loading" />
         </div>
-        <p>Please wait while we are connecting.</p>
+        <p>Please wait while we connect you.</p>
       </div>
     </div>
   );
