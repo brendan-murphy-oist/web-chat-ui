@@ -1,8 +1,8 @@
 {
-  "name": "minimizable-web-chat",
-  "version": "0.1.0",
+  "name": "web-chat-ui",
+  "version": "1.0.0",
   "private": true,
-  "homepage": ".",
+  "homepage": "https://test-oist-admissions.pantheonsite.io/",
   "dependencies": {
     "botframework-webchat": "^4.14.0",
     "classnames": "^2.3.1",
