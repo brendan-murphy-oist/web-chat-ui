@@ -51,7 +51,7 @@ const MinimizableWebChat = () => {
     if (!token) {
       console.log('getting a token')
       //In production, this will need to be the URL where the bot 
-      const res = await fetch('http://localhost:5000/api/directline/token', { method: 'GET' });
+      const res = await fetch('https://webchat-mockbot.azurewebsites.net/directline/token', { method: 'GET' });
       console.log(res)
       const { token } = await res.json();
       console.log(token)
